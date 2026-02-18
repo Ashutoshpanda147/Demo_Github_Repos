@@ -4,7 +4,7 @@ jobs:
   myjob1:
     runs-on: ubuntu-latest
     steps:
-      -name: display Hello world
-       run: echo "hello world"
-      -name: Say bye to the world
-       run: echo "I am done for today - Bye"
+      - name: display Hello world
+        run: echo "hello world"
+      - name: Say bye to the world
+        run: echo "I am done for today - Bye"
